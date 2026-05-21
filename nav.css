@@ -1,0 +1,97 @@
+*{
+  padding: 0;
+  margin: 0;
+  text-decoration: none;
+  list-style: none;
+}
+
+body{
+  font-family: Arial;
+
+}
+
+nav{
+  background-color: rgb(29, 88, 164);
+  height: 80px;
+  width: 100%;
+}
+
+.logo{
+  color: white;
+  font-size: 35px;
+  line-height: 80px;
+  padding: 0 100px;
+  font-weight: bold;
+}
+
+.content{
+  float: right;
+  margin-right: 60px;
+}
+
+nav ul li{
+  display: inline-block;
+line-height: 80px;
+margin: 0 10px;
+}
+
+.list0{
+  color: white;
+font-size: 15px;
+padding: 7px 13px;
+border-radius: 3px;
+}
+
+
+.list1{
+  display: flex;
+  padding: 32px;
+  color: white;
+  font-size: 12px;
+  margin-left: 100px;
+
+}
+
+.test{
+  font-size: 18px;
+  font-weight: bold;
+  background-color: rgb(13, 83, 205);
+  padding-bottom: 9px;
+  padding-top: 9px;
+  padding-left: 12px;
+  color: white;
+ 
+}
+.menu{
+  margin-left: 150px;
+  margin-top: 150px;
+  background-color: rgba(9, 32, 63, 0.869);
+  width: 300px;
+  float: left;
+
+}
+
+.header{
+float: right;
+padding-right: 500px;
+padding-top: 300px;
+color: rgb(29, 88, 164);
+font-weight: bold;
+font-size: 29px;
+
+}
+
+.design{
+  background-color: rgb(29, 88, 164);
+  color: white;
+}
+
+a.active,a:hover {
+  background-color: rgba(238, 222, 222, 0.18);
+  transition: .5s;
+  max-width: 35px;
+}
+
+.lite{
+  color: blue;
+}
